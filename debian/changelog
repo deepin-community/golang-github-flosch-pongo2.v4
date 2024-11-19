@@ -1,5 +1,22 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-flosch-pongo2.v4 (4.0.2-3) unstable; urgency=medium
 
-  * Initial release
+  [ Aloïs Micard ]
+  * update debian/gitlab-ci.yml (using pkg-go-tools/ci-config)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Mathias Gibbens ]
+  * Update d/watch to only track v4 releases
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Thu, 28 Apr 2022 23:48:09 +0000
+
+golang-github-flosch-pongo2.v4 (4.0.2-2) unstable; urgency=medium
+
+  * Source only upload for testing migration
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Thu, 25 Nov 2021 11:30:41 +0100
+
+golang-github-flosch-pongo2.v4 (4.0.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #998742)
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Sun, 07 Nov 2021 16:02:09 +0100

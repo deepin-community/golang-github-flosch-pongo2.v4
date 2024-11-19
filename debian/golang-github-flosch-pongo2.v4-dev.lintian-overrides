@@ -1,0 +1,2 @@
+# False positive picking up on templates used in this package's tests
+golang-github-flosch-pongo2.v4-dev: package-contains-documentation-outside-usr-share-doc
