@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+# Install test templates
+export DH_GOLANG_INSTALL_EXTRA := template_tests
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
